@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style-min.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+                <div class="logo">
+                    <img src="img/svg/logo.svg" alt="#LOGO" class="logo__pic">
+                </div>
+                <nav class="nav nav__close">
+                    <ul class="nav_list">
+                        <li class="nav_list__item">
+                            <a href="index.html" class="nav_list__link js-scroll">Home</a>
+                        </li>
+                        <li class="nav_list__item">
+                            <a href="#episodes" class="nav_list__link js-scroll">Episodes</a>
+                        </li>
+                        <li class="nav_list__item">
+                            <a href="#about" class="nav_list__link js-scroll">About</a>
+                        </li>
+                        <li class="nav_list__item">
+                            <a href="#contact" class="nav_list__link js-scroll">Contact</a>
+                        </li>
+                        <div class="close_arrow">
+                            <span class="arrow__line"></span><span class="arrow__line"></span>
+                        </div>
+                    </ul>
+                </nav>
+                <div class="burger">
+                    <span class="burger_line first__line"></span>
+                    <span class="burger_line second__line"></span>
+                    <span class="burger_line third__line"></span>
+                </div>
+        </header>
+    </div>
+
+        <main class="main">
+            <div class="container">
+                <div class="first_block">
+                    <img src="img/first_pic-min.jpg" alt="first pic" class="first_block__pic">
+                    <div class="first_block_title">
+                        <p class="first_title">Take your podcast to the</p>
+                        <p class="first_title">next<p class="bold__text">level</p></p>
+                        <div class="link_block">
+                            <p class="link_block__title">Listen on</p>
+                            <div class="link_block_list">
+                                <a href="" class="block_list__unit"><img src="img/svg/spotify.svg" alt=""></a>
+                                <a href="" class="block_list__unit"><img src="img/svg/m-logo2.svg" alt=""></a>
+                                <a href="" class="block_list__unit"><img src="img/svg/m-logo3.svg" alt=""></a>
+                                <a href="" class="block_list__unit"><img src="img/svg/m-logo4.svg" alt=""></a>
+                                <a href="" class="block_list__unit"><img src="img/svg/m-logo5.svg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <section class="episodes" id="episodes">
+                <div class="container">
+                    <div class="episodes_contents">
+                        <h2 class="episodes_title">Latest episodes</h2>
+                        <button class="episodes_btn">View all episodes</button>
+                    </div>
+
+                    <div class="episode_card">
+                        <img src="img/episode3-min.jpg" alt="#!" class="episode_card__pic">
+                        <div class="episode_card_info">
+                            <p class="episode__type">Gear</p>
+                            <p class="episode__number">Episode 3</p>
+                            <h2 class="episode__title">Should you get outboard audio gear?</h2>
+                            <p class="episode__subtitle">Is hardware really worth it when it comes to podcasting? The answer is...it depends. Here’s our reasons on why you might want to consider picking something up.</p>
+                            <button class="episodes_btn epi_btn__mg">View Episode Details</button>
+                        </div>
+                    </div>
+                    <div class="episode_card">
+                        <img src="img/episode2-min.jpg" alt="#!" class="episode_card__pic">
+                        <div class="episode_card_info">
+                            <p class="episode__type">Tips & Tricks</p>
+                            <p class="episode__number">Episode 2</p>
+                            <h2 class="episode__title">Mic tricks to take you to the next level</h2>
+                            <p class="episode__subtitle">Stop rolling with those default settings on your mic. These small tweaks will take you from sounding good to great.</p>
+                            <button class="episodes_btn epi_btn__mg">View Episode Details</button>
+                        </div>
+                    </div>
+                    <div class="episode_card">
+                        <img src="img/episode1-min.jpg" alt="#!" class="episode_card__pic">
+                        <div class="episode_card_info">
+                            <p class="episode__type">Gear</p>
+                            <p class="episode__number">Episode 1</p>
+                            <h2 class="episode__title">The best microphone under $200</h2>
+                            <p class="episode__subtitle">With so many microphones on the market, how are you supposed to know what’s the best? Take a look at our top picks.</p>
+                            <button class="episodes_btn epi_btn__mg">View Episode Details</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="audio_engineering" id="about">
+                <div class="container">
+                    <div class="audio_engineering_card">
+                        <div class="engineering_card__info">
+                            <div class="engineering_card__link">
+                                <span class="small__line"></span>
+                                <span class="long__line"></span>
+                                <span class="small__line"></span>
+                            </div>
+                            <a href="#!" class="card__link__text">Meet your host</a>
+                            <h2 class="engineering_card__title">Jacob Paulaner</h2>
+                            <p class="engineering_card__subtitle">Jacob has a background in audio engineering, and has been podcasting since the early days.</p>
+                            <p class="engineering_card__subtitle">He’s here to help you level up your game by sharing everything he’s learned along the way.</p>
+                        </div>
+                        <div class="engineering_card__pic">
+                            <img src="img/second_pic-min.jpg" alt="#!" class="engineering_card__image">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="container">
+                <div class="form_subscribe">
+                    <div class="title_block">
+                        <p class="form__subtitle">Email Newsletter</p>
+                        <h2 class="form__title">Subscribe for updates</h2>
+                    </div>
+                    <form action="#!" class="form">
+                        <input type="text" class="form__item" placeholder="Name">
+                        <input type="mail" class="form__item" placeholder="Email">
+                        <button class="form__btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+
+            <section class="reviews">
+                <div class="container">
+                    <div class="review_block">
+                        <div class="review_block_item">
+                            <div class="block_item__stars">
+                                <img src="img/svg/stars.svg" alt="#!" class="item__stars__pic">
+                                <img src="img/svg/stars.svg" alt="#!" class="item__stars__pic">
+                                <img src="img/svg/stars.svg" alt="#!" class="item__stars__pic">
+                                <img src="img/svg/stars.svg" alt="#!" class="item__stars__pic">
+                                <img src="img/svg/stars.svg" alt="#!" class="item__stars__pic">
+                            </div>
+                            <h2 class="block_item__title">
+                                I can’t recommend this podcast enough
+                            </h2>
+                            <p class="block_item__name">
+                                Betty Lacey
+                            </p>
+                        </div>
+
+                        <div class="review_block_item">
+                            <div class="block_item__stars">
+                                <img src="img/svg/stars.svg" alt="#!" class="item__stars__pic">
+                                <img src="img/svg/stars.svg" alt="#!" class="item__stars__pic">
+                                <img src="img/svg/stars.svg" alt="#!" class="item__stars__pic">
+                                <img src="img/svg/stars.svg" alt="#!" class="item__stars__pic">
+                                <img src="img/svg/stars.svg" alt="#!" class="item__stars__pic">
+                            </div>
+                            <h2 class="block_item__title">
+                                Jacob is the best in the business
+                            </h2>
+                            <p class="block_item__name">
+                                Adam Driver
+                            </p>
+                        </div>
+
+                        <div class="review_block_item">
+                            <div class="block_item__stars">
+                                <img src="img/svg/stars.svg" alt="#!" class="item__stars__pic">
+                                <img src="img/svg/stars.svg" alt="#!" class="item__stars__pic">
+                                <img src="img/svg/stars.svg" alt="#!" class="item__stars__pic">
+                                <img src="img/svg/stars.svg" alt="#!" class="item__stars__pic">
+                                <img src="img/svg/stars.svg" alt="#!" class="item__stars__pic">
+                            </div>
+                            <h2 class="block_item__title">
+                                A wealth of audio knowledge
+                            </h2>
+                            <p class="block_item__name">
+                                Marcus Brown
+                            </p>
+                        </div>
+
+                        <div class="review_block_item">
+                            <div class="block_item__stars">
+                                <img src="img/svg/stars.svg" alt="#!" class="item__stars__pic">
+                                <img src="img/svg/stars.svg" alt="#!" class="item__stars__pic">
+                                <img src="img/svg/stars.svg" alt="#!" class="item__stars__pic">
+                                <img src="img/svg/stars.svg" alt="#!" class="item__stars__pic">
+                                <img src="img/svg/stars.svg" alt="#!" class="item__stars__pic">
+                            </div>
+                            <h2 class="block_item__title">
+                                Every episode is a gem!
+                            </h2>
+                            <p class="block_item__name">
+                                Jessica Knowl
+                            </p>
+                        </div>
+
+                        <div class="review_block_item">
+                            <div class="block_item__stars">
+                                <img src="img/svg/stars.svg" alt="#!" class="item__stars__pic">
+                                <img src="img/svg/stars.svg" alt="#!" class="item__stars__pic">
+                                <img src="img/svg/stars.svg" alt="#!" class="item__stars__pic">
+                                <img src="img/svg/stars.svg" alt="#!" class="item__stars__pic">
+                                <img src="img/svg/stars.svg" alt="#!" class="item__stars__pic">
+                            </div>
+                            <h2 class="block_item__title">
+                                Whoa whoa, let me take some notes!
+                            </h2>
+                            <p class="block_item__name">
+                                Scott Adams
+                            </p>
+                        </div>
+
+                        <div class="review_block_item">
+                            <div class="block_item__stars">
+                                <img src="img/svg/stars.svg" alt="#!" class="item__stars__pic">
+                                <img src="img/svg/stars.svg" alt="#!" class="item__stars__pic">
+                                <img src="img/svg/stars.svg" alt="#!" class="item__stars__pic">
+                                <img src="img/svg/stars.svg" alt="#!" class="item__stars__pic">
+                                <img src="img/svg/stars.svg" alt="#!" class="item__stars__pic">
+                            </div>
+                            <h2 class="block_item__title">
+                                I’ve upped my game considerably since I started listening
+                            </h2>
+                            <p class="block_item__name">
+                                Steven Blast
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <footer class="footer" id="contact">
+                <div class="container footer_container">
+                    <div class="logo_block">
+                        <img src="img/svg/logo.svg" alt="#!" class="logo__image">
+                        <a href=""><img src="img/svg/instagram.svg" alt="#!" class="social__ico"></a>
+                        <a href=""><img src="img/svg/twitter.svg" alt="#!" class="social__ico"></a>
+                        <a href=""><img src="img/svg/facebook.svg" alt="#!" class="social__ico"></a>
+                    </div>
+
+                    <div class="footer_link_block">
+                        <ul class="link_block_list">
+                            <a href=""><li class="link_block_list__item">Home</li></a>
+                            <a href=""><li class="link_block_list__item">About</li></a>
+                            <a href=""><li class="link_block_list__item">Episodes</li></a>
+                            <a href=""><li class="link_block_list__item">Contact</li></a>
+                        </ul>
+
+                        <ul class="link_block_list">
+                            <a href=""><li class="link_block_list__item">Style Guide</li></a>
+                            <a href=""><li class="link_block_list__item">Instructions</li></a>
+                            <a href=""><li class="link_block_list__item">Changelog</li></a>
+                            <a href=""><li class="link_block_list__item">Credit</li></a>
+                            <a href=""><li class="link_block_list__item">Powered by Webflow</li></a>
+                            <a href=""><li class="link_block_list__item">Licenses</li></a>
+                        </ul>
+
+                        <div class="link_block_list">
+                            <a href="" class="link_item"><img src="img/svg/spotify.svg" alt="" class="block_list__unit"></a>
+                            <a href="" class="link_item"><img src="img/svg/m-logo2.svg" alt="" class="block_list__unit"></a>
+                            <a href="" class="link_item"><img src="img/svg/m-logo3.svg" alt="" class="block_list__unit"></a>
+                            <a href="" class="link_item"><img src="img/svg/m-logo4.svg" alt="" class="block_list__unit"></a>
+                            <a href="" class="link_item"><img src="img/svg/m-logo5.svg" alt="" class="block_list__unit"></a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </main>
+
+<!--https://www.figma.com/file/cTfnZwcHIq99yVWmlrJ70i/Castaway?node-id=0%3A1&t=7iMU63cRObxehdkk-0-->
+    <script src="./js/main-min.js"></script>
+</body>
+</html>
